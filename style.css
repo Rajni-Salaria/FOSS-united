@@ -9,51 +9,24 @@ body {
 }
 
 /* <!-- Header Section Start --> */
-container.bar {
-    margin: 0 110px 0 110px;
-}
+
 a.nav-link :hover {
     color: #08b74f;
 }
-@media screen and (min-width: 360px) and (max-width: 767px) {
-    .container.bar {
-        margin: 0 10px 0 10px;
-    }
-}
-
 img.logo {
     width: 77px;
     height: 60px;
 }
 
-.navbar.navbar-expand-lg {
-    padding: 2rem 0rem 2rem 0rem
-}
-
-.navbar-brand.mt-3 {
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-
-@media screen and (min-width: 360px) and (max-width: 767px) {
-    .navbar.navbar-expand-lg {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .navbar-brand.mt-3 {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
 /* <!-- Header Section End --> */
 
 /* <!-- How-it-works Section End --> */
+.col.text-white {
+    margin: 190px 0 0 0;
+}
 .contain-img {
     margin: 120px 0 0 154px;
     height: 25rem;
-    /* padding-right: 10rem; */
 }
 h1.funding-title {
     font-size: 55px;
@@ -65,14 +38,6 @@ p.funding-subtitle {
 
 .container.d-flex {
     height: 660px;
-}
-
-.col.text-white {
-    margin: 190px 0 0 0;
-}
-
-img.contain-img.p-2 {
-    margin: 78px 0 0 0;
 }
 a.dropdown-item.text-white:hover{
     background-color: black;
@@ -115,7 +80,6 @@ a.dropdown-item.text-white:hover{
 }
 .col-lg-12.how-it-works.mt-5 {
     width: 800px;
-    margin: 12 auto;
     margin: 12px auto;
 }
 @media screen and (min-width: 360px) and (max-width: 767px) {
