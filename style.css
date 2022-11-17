@@ -9,10 +9,10 @@ body {
 }
 
 /* <!-- Header Section Start --> */
-
 a.nav-link :hover {
     color: #08b74f;
 }
+
 img.logo {
     width: 77px;
     height: 60px;
@@ -24,10 +24,12 @@ img.logo {
 .col.text-white {
     margin: 190px 0 0 0;
 }
+
 .contain-img {
     margin: 120px 0 0 154px;
     height: 25rem;
 }
+
 h1.funding-title {
     font-size: 55px;
 }
@@ -39,7 +41,8 @@ p.funding-subtitle {
 .container.d-flex {
     height: 660px;
 }
-a.dropdown-item.text-white:hover{
+
+a.dropdown-item.text-white:hover {
     background-color: black;
 }
 
@@ -47,6 +50,7 @@ a.dropdown-item.text-white:hover{
     .contain-img {
         display: none;
     }
+
     h1.funding-title {
         font-size: 35px;
     }
@@ -64,6 +68,7 @@ a.dropdown-item.text-white:hover{
     }
 
 }
+
 @media screen and (min-width: 768px) and (max-width: 1000px) {
     .col.text-white {
         margin: 50px 0 0 0;
@@ -75,80 +80,85 @@ a.dropdown-item.text-white:hover{
         height: 17rem;
     }
 }
-.work-para{
+
+.work-para {
     font-size: 18px;
 }
+
 .col-lg-12.how-it-works.mt-5 {
     width: 800px;
     margin: 12px auto;
 }
+
 @media screen and (min-width: 360px) and (max-width: 767px) {
     .col-lg-12.how-it-works.mt-5 {
         width: 340px;
         margin: 12px auto;
     }
 }
+
 /* <!-- How-it-works Section end --> */
 
 /* <!-- Recent Grants Boxes Start --> */
 .container.grant.mt-3 {
     width: 800px;
 }
+
 .co-6.mt-3 {
     width: 500px;
 }
+
 @media screen and (min-width: 360px) and (max-width: 767px) {
     .container.grant.mt-3 {
         width: 340px;
     }
-    }
-    /* <!-- Recent Grants Boxes End --> */
+}
 
-    /* <!-- Footer Section Start --> */
+/* <!-- Recent Grants Boxes End --> */
+
+/* <!------------------------ Footer Section Start ------------------------> */
+/* <!-- Footer About, Grants, Events, Projects, Otherimportantlinks and Social Media Start --> */
 .container-fluid.pt-5 {
     padding: 0 50px 0 90px;
 }
-b.change{
-    color: #d7d3d3;
-    font-size: 15px;
-}
-.navbar-nav.mt-1 li{
-    margin-top: 5px;
-}
-.navbar-nav.mt-1 li a{
-    color: #d7d3d3;
-font-size: 15px;
-}
-.navbar-nav.mt-1 li a:hover{
+
+.navbar-nav.mt-1 li a:hover {
     color: green;
 }
-.col-md-6.change.build{
-    text-align: end;
-}
-.navbar-nav.mt-1 li{
-    margin-top: 10px;
+
+.navbar-nav.mt-1 li {
+    margin-top: 5px;
 
 }
-.change{
+
+.change {
     color: #d7d3d3;
     font-size: 15px;
 }
+
 ul.navbar-nav.mt-1 {
     cursor: pointer;
 }
+
 @media screen and (min-width: 360px) and (max-width: 767px) {
     .container-fluid.pt-5 {
         padding: 0 20px 0 30px;
     }
 }
+
+/* <!-- Footer About, Grants, Events, Projects, Otherimportantlinks and Social Media End --> */
+/* <!-- Footer  © United Foundation Start --> */
 .Build {
     display: flex;
     justify-content: space-between;
 }
+
 @media screen and (min-width: 360px) and (max-width: 767px) {
     .Build {
         display: block;
-        justify-content: space-between;
+
     }
 }
+
+/* <!-- Footer  © United Foundation End --> */
 /* <!-- Footer Section End --> */
